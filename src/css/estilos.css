@@ -1,0 +1,193 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 100px;
+  margin-right: 200px;
+  background-color: rgb(226, 220, 220);
+  color: #333333;
+}
+
+
+body.modo-escuro {
+    background-color: #212121;
+    color: #f5f5f5;
+  }
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+  }
+  
+  header .logo {
+    width: 650px;
+    transition: 0.2s ease-in-out;
+  }
+  header #botao-alterar-atributo {
+    transition: 0.2s ease-in-out;
+  }
+  header #botao-alterar-atributo,
+  header .logo {
+    background: none;
+    border: none;
+
+  }
+
+  header .logo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  header a {
+    height: 0px;
+
+  }
+
+
+
+  main {
+    justify-content: space-between;
+    padding: 25px;
+    display: flex;
+  }
+  main .heroi-e7 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: right;
+  }
+  main .heroi-e7 {
+    background-color: #b85858;
+    width: 200px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+  }
+
+  main .heroi-e7 .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+  }
+
+  main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+
+  .token-herois {
+    max-width: 850px;
+  }
+
+  main .heroi-ras img {
+    max-width: 90%;
+    align-self: center;
+    display: flex;
+  }
+
+  main .heroi-ras {
+    display: flex;
+    flex-direction: column;
+  }
+  main .informacao-ras {
+    display: flex;
+    text-align: justify;
+    font-size: 30px;
+  }
+
+  main .informacoes {
+    font-family: "Cinzel";
+    font-size: 50px;
+    margin-bottom: 39px;
+  }
+
+
+
+  main button {
+    background-color: transparent;
+    border: none;
+    width: 30%;
+  
+  }
+
+  main button img {
+    width: 95%;
+  }
+
+
+
+  
+main .botao-token-mercedes:hover,
+main .botao-token-angelica:hover,
+main .botao-token-aol:hover,
+main .botao-token-briseria:hover,
+main .botao-token-sinful:hover,
+main .botao-token-ras:hover,
+main .botao-token-adine:hover,
+main .botao-token-savior-adine:hover,
+main .botao-token-veronica:hover,
+main .botao-token-aria:hover,
+main .botao-token-baiken:hover,
+main .botao-token-edward:hover,
+main .botao-token-elphet:hover,
+main .botao-token-jacko:hover,
+main .botao-token-milin:hover,
+main .botao-token-Ran:hover,
+main .botao-token-rimuru:hover,
+main .botao-token-risa:hover,
+main .botao-token-roy:hover,
+main .botao-token-sol-badguy:hover,
+main .botao-token-tenebria:hover,
+main .botao-token-winter:hover,
+main .botao-token-karina:hover,
+main .botao-token-giselle:hover,
+main .botao-token-dizzy:hover,
+main .botao-token-ningning:hover,
+main .botao-token-emilia:hover,
+main .botao-token-ram:hover,
+main .botao-token-rem:hover
+
+{
+
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+
+
+
+main .botao-token-mercedes
+main .botao-token-angelica
+main .botao-token-aol
+main .botao-token-briseria
+main .botao-token-sinful
+main .botao-token-ras
+main .botao-token-adine
+main .botao-token-savior-adine
+main .botao-token-veronica
+main .botao-token-aria
+main .botao-token-baiken
+main .botao-token-edward
+main .botao-token-elphet
+main .botao-token-jacko
+main .botao-token-milin
+main .botao-token-Ran
+main .botao-token-rimuru
+main .botao-token-risa
+main .botao-token-roy
+main .botao-token-sol-badguy {
+
+
+  width: 75%;
+}
+
+main .imagem-personagem {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
