@@ -159,7 +159,7 @@ for (let i = 0; i < botaoTrocaDeHeroi.length; i++) {
             case "emilia":
                 document.querySelector(".heroi-ras img").src="./src/imagens/emilia.png"
                 document.querySelector(".informacao-ras").textContent = "Meia-elfa de cabelos prateados que chegou a Ritânia através de um Portal do Caos. Ela é gentil e terna, além de bondosa e honesta, não conseguindo passar batido ao ver alguém em apuros."
-                document.querySelector(".informacoes").textContent = "Emilia - Collab RE-Zero";
+                document.querySelector(".informacoes").textContent = "Emilia -  Collab RE-Zero";
             break;
             case "ram":
                 document.querySelector(".heroi-ras img").src="./src/imagens/ram.png"
